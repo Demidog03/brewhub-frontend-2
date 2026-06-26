@@ -1,0 +1,24 @@
+export interface User {
+    name: string
+    email: string
+}
+
+export interface RegisterPayload {
+    name: string
+    email: string
+    password: string
+}
+
+export interface RegisterResponse {
+    message: string
+}
+
+export interface LoginPayload {
+    email: string
+    password: string
+}
+
+export interface LoginResponse {
+    data: User
+    accessToken: string
+}

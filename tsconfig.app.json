@@ -10,6 +10,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@core/*": ["./src/core*"],
+      "@assets/*": ["./src/assets*"],
     },
 
     // `vue-tsc --build` produces a .tsbuildinfo file for incremental type-checking.
